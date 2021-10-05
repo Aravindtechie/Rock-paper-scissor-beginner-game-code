@@ -1,0 +1,208 @@
+.box
+{
+ font-weight: bolder;
+ color: white;
+ padding: 20px;
+ border-radius: 0px;
+ display: inline-block;
+ font-size: 140%;
+}
+body
+{
+	background: #191970;
+}
+h1
+{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 2px;
+	margin-left: -5%;
+	color: lightblue;
+}
+#set
+{
+	border-radius: 5px;
+	text-align: left;
+    margin-top: 5%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 35%;
+    padding: 0px;
+    border-spacing: 0.2px;
+}
+p
+{
+	border-radius: 5px;
+	background-color: white;
+	padding: 40px;
+	float: right;
+	margin-right: 3%;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+#buttons
+{
+	text-align: center;
+	margin-left: -6%;
+	vertical-align: center;
+	padding: 2% 2% 2% 2%;
+}
+
+#btn1
+{
+	border-radius: 15%;
+	padding: 0.5%;
+	margin-bottom: 2%;
+	background: lightblue;
+
+}
+
+#btn2
+{
+	border-radius: 15%;
+	padding: 0.5%;
+	margin-right: 8%;
+	background: darkred;
+}
+
+#btn3
+{
+	border-radius: 15%;
+	padding: 0.5%;
+	background: darkgreen;
+}
+
+#rules
+{
+	background: #191970;
+	border-radius: 5px;
+	text-align: center;
+	border-color: white;
+	margin-right: 50%;
+	border-style: solid;
+	color: white;
+	padding: 2px;
+	margin-bottom: 55px;
+	background: white;
+}
+#pick
+{
+	color: white;
+	margin-left: 40%;
+	font-style: solid;
+	font-weight: 49px;
+	font-size: 250%;
+	text-transform: uppercase;
+}
+
+#answer1
+{
+	background: black;
+	border-radius: 15px;
+	color: white;
+	margin-top: -50px;
+	margin-bottom: 60px;
+	font-weight: 40px;
+	font-family: aries;
+	font-size: 20px;
+	border-spacing: 10px;
+	display: inline-block;
+	margin-right: 42%;
+	padding: 50px;
+}
+
+#answer2
+{
+	border-radius: 15px;
+	background: black;
+	color: white;
+	font-size: 20px;
+	font-family: aries;
+	font-weight: 40px;
+	margin-top: -50px;
+	margin-bottom: 60px;
+	display: inline-block;
+	margin-right: 42%;
+	padding: 50px;
+	
+}
+
+#Player
+{
+	margin-left: 320px;
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+	background: black;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+#Computer
+{
+	margin-left: 320px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 10px;
+	background: black;
+}
+
+#Score
+{
+	font-size: 20px;
+	font-style: bolder;
+	color: black;
+}
+
+#Score2
+{
+	font-size: 20px;
+	font-style: bolder;
+	color: black;
+}
+
+#reset
+{
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-left: 44%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#Cscore
+{
+	text-align: center;
+	margin-left: 250px;
+	margin-bottom: -83px;
+	margin-top: 30px;
+	color: white;
+	font-size: 20px;
+}
+
+#Pscore
+{
+	text-align: center;
+	margin-left: 65px;
+	margin-top: 37px;
+	padding-left: 10px;
+	color: white; 
+	font-size: 20px;
+}
+
+#body
+{
+	color: white;
+}

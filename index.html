@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <title>
+    Play games
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+  <script type="text/javascript" src="GameJs.js"></script>
+</header>
+<body id="body">
+	<h1>LETS PLAY GAME NOW</h1>
+	<div id="Cscore">Player<br>score</div>
+	<div id="Pscore">Computer<br>score</div>
+	<div id="set">
+  <div class="box" style="text-align: left"><strong>ROCK<br>PAPER<br>SCISSOR<br></strong></div>
+  	<p name="Score" id="Score">0</p>
+  	<p name="Score2" id="Score2">0</p></div>
+  	<br><br>
+  	<span id="pick">Pick one</span>
+
+  	<fieldset id="field">
+  	<div id="buttons">
+
+  <button id="btn1" type="submit" value="ROCK" onclick="fun(); status(); compare1();"/><img src="\Users\ADMIN\Desktop\Portfolio 1\stony.jpg" width="60" height="60"/></button><br>
+
+  <button id="btn2" type="submit" value="PAPER" onclick = "fun1(); status1(); compare();"/><img src="\Users\ADMIN\Desktop\Portfolio 1\paper.png" width="60" height="60"/></button>
+
+  <button id="btn3" type="submit" value="SCISSOR" onclick = "fun2(); status2(); compare();"/><img src="\Users\ADMIN\Desktop\Portfolio 1\sciss.png" width="60" height="60"/></button>
+  </div>
+</fieldset>
+  <br><br><br><br><br>
+  <span id="Computer">Computer</span>
+  <p id="answer1"></p><br><br><br><br><br><br><br>
+  <span id="Player">Player</span>
+  <p id="answer2"></p>
+<p id="rules"><a href="instruction.html" target = "_blank">Instructions</p><br><br><br><br><br><br>
+</div>
+</body>
+</html>
